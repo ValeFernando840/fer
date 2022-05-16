@@ -1,0 +1,71 @@
+.administracion {
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: #0e003be5;
+    border-radius: 10px;
+    margin: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(205, 191, 191, 0.5);
+}
+.modal-title {
+    color: #9f01e9;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+/* .btn-close {
+    color: #9f01e9;
+} */
+.form-select option:focus {
+    background-color: #9f01e9;
+}
+.btnModal {
+    padding: 0.7rem;
+    background-color: #9f01e9;
+    box-shadow: 2px 2px 5px rgba(219, 101, 180, 0.5);
+    border-color: #9f01e9;
+}
+.btnModal:hover {
+    background-color: #EB0CEB;
+    border-color: #9f01e9;
+}
+.btn-ingresos {
+    background-color: #EB0CEB;
+    box-shadow: 2px 2px 5px rgba(219, 101, 180, 0.5);
+}
+.btn-ingresos >p:hover {
+    font-size: 1.3rem;
+}
+.btn-ingresos > p {
+    color: #ebd6d6;
+    font-weight: bolder;
+    align-self: center;
+    margin: 0;
+    font-size: 1.2rem;
+}
+.modal-content {
+    /* background-color: #31186a; */
+    background-image: url(/assets/img/3569870.jpg);
+}
+.modalIngresos-body input {
+    border-radius: 0.5rem;
+    width: 15rem;
+    border-color: #9f01e9;
+}
+.modalIngresos-body input:focus {
+    box-shadow: #9f01e9;
+}
+.modalIngresos-body select {
+    border-radius: 0.5rem;
+    width: 15rem;
+    border-color: #9f01e9;
+}
+.modalIngresos-body div {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.header-table {
+    color: #9f01e9;
+    font-size: 1.5rem;
+}
